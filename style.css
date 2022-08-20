@@ -4,13 +4,58 @@
     box-sizing: border-box;
     font-size: 14px;
     background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
+    margin: 5px;
 }
 
 h1 {
     font-size: 2.4em;
+}
+
+h2 {
+    font-size: 2.1em;
+}
+
+h3{
+    font-size: 1.9em;
+}
+
+h4 {
+    font-size: 1.7em;
+}
+
+figure {
+    text-align: center;
+    font-size: 0.6em;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+ul > li {
+    list-style: disc inside;
+}
+
+ul li ul li {
+    list-style: circle inside;
+}
+
+ol > li {
+    list-style: decimal inside;
+}
+
+p, li {
+    margin: 3px;
+}
+
+nav {
+    list-style: none;
+    display: inline;
 }
