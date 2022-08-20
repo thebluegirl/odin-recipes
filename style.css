@@ -2,9 +2,15 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-size: 14px;
+    background-color: lightgray;
 }
 
 h1, h2, h3, h4, h5, h6 {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 2.4em;
 }
